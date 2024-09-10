@@ -37,15 +37,9 @@ return (
     <div className="text-center mb-4 lg:text-start ">
       <h1 className="text-xl md:text-2xl lg:text-2xl lg:font-thin">বেস্ট সেলার বিষয় </h1>
     </div>
-<<<<<<< HEAD
     <div className="grid grid-cols-2 gap-3 gap-y-3 sm:grid-3 sm:gap-3 md:grid-cols-3 lg:gap-2 lg:grid-cols-6 p-4 md:p-5 items-center ">
       {cards.map((item, index) => (
         <div key={index} className="card w-[165px] m-auto  h-[170px] bg-gray-200 text-center flex flex-col items-center justify-center">
-=======
-    <div className="grid grid-cols-2 gap-2 md:grid-cols-3 lg:gap-2 lg:grid-cols-6 p-4 md:p-5 items-center">
-      {cards.map((item, index) => (
-        <div key={index} className="card w-full h-[165px] bg-gray-200 text-center flex flex-col items-center justify-center">
->>>>>>> 6fcd473252ae324c50d72e158fbf33f1b1cba4d8
           <img className="object-cover w-full h-full" src={item.imageUrl} alt={`Card ${index + 1}`} />
           <div className="text mt-2">
             <h1 className='font-thin text-sm md:text-base'>{item.title}</h1>
@@ -63,11 +57,7 @@ return (
     </div>
     <div className="grid grid-cols-2 gap-3 md:p-5  md:grid-cols-3 lg:gap-2 lg:grid-cols-6  p-4 items-center">
       {cards.map((item, index) => (
-<<<<<<< HEAD
         <div key={index} className=" m-auto card w-[165px] h-[179px] bg-gray-200 text-center flex flex-col items-center ">
-=======
-        <div key={index} className="card w-full h-[165px] bg-gray-200 text-center flex flex-col items-center justify-center">
->>>>>>> 6fcd473252ae324c50d72e158fbf33f1b1cba4d8
           <img className="object-cover w-full h-full" src={item.imageUrl} alt={`Card ${index + 1}`} />
           <div className="text mt-2">
             <h1 className='text-[20px] text-sm md:text-base'>{item.title}</h1>
