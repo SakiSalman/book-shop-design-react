@@ -91,25 +91,25 @@ export const menuData = [
     {
       id: 1,
       name: "উপন্যাস",
-      path: "/",
+      path: "",
       content: ""
     },
     {
       id: 1,
       name: "কবিতা",
-      path: "/",
+      path: "",
       content: ""
     },
     {
       id: 1,
       name: "গল্প",
-      path: "/",
+      path: "",
       content: ""
     },
     {
       id: 1,
       name: "অনুবাদ",
-      path: "/",
+      path: "",
       content: ""
     }
   ]
