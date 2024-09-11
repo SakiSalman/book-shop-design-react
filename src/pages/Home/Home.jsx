@@ -144,7 +144,7 @@ return (
   {btns.map((item, index) => (
    <button
    key={index}
-   className="w-full  bg-white text-black md:z-[1] py-2 px-4 flex items-center justify-center gap-2 border border-black md:border-blue-400 relative mb-3 md:mb-0 overflow-hidden text-center whitespace-nowrap before:content-[''] before:absolute before:left-0 before:top-0 before:w-[0%] before:h-[100%] before:bg-blue-500 md:hover:before:w-[100%] md:before:transition-all md:before:duration-700 md:ho md:py-4 md:before:z-[-1] md:hover:text-white md:rounded-md"
+   className="w-full  bg-white text-black md:z-[1] py-2 px-4 flex items-center justify-center gap-2 border border-black md:border-blue-400 relative mb-3 md:mb-0 overflow-hidden text-center whitespace-nowrap before:content-[''] before:absolute before:left-0 before:top-0 before:w-[0%] before:h-[100%] before:bg-blue-500 md:hover:before:w-[100%] md:before:transition-all md:before:duration-700 md:ho md:py-4 md:before:z-[-1] md:hover:text-white md:"
  >
    <span className="truncate">{item.btn_text}</span>
    <span className="block md:hidden"><SlArrowRight /></span>

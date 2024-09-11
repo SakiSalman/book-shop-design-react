@@ -53,25 +53,25 @@ export const cards = [
     id: 3,
     imageUrl:
       "https://ds.rokomari.store/rokomari110/category/fbc52375a1c64_image.webp",
-    title: "Card 3",
+    title: "ইসলামিক বই",
   },
   {
     id: 4,
     imageUrl:
       "https://ds.rokomari.store/rokomari110/category/12322a1f91b14_image.webp",
-    title: "Card 4",
+    title: "ইসলামিক বই",
   },
   {
     id: 5,
     imageUrl:
       "https://ds.rokomari.store/rokomari110/category/1d9f089d01a74_image.webp",
-    title: "Card 5",
+    title: "ইসলামিক বই",
   },
   {
     id: 6,
     imageUrl:
       "https://ds.rokomari.store/rokomari110/category/16469bf2d8e64_image.png",
-    title: "Card 6",
+    title: "ইসলামিক বই",
   },
 ];
 
@@ -92,25 +92,25 @@ export const superStore = [
     id: 3,
     imageUrl:
       "https://ds.rokomari.store/rokomari110/category/fbc52375a1c64_image.webp",
-    title: "Card 3",
+    title: "ইসলামিক বই",
   },
   {
     id: 4,
     imageUrl:
       "https://ds.rokomari.store/rokomari110/category/12322a1f91b14_image.webp",
-    title: "Card 4",
+    title: "ইসলামিক বই",
   },
   {
     id: 5,
     imageUrl:
       "https://ds.rokomari.store/rokomari110/category/1d9f089d01a74_image.webp",
-    title: "Card 5",
+    title: "ইসলামিক বই",
   },
   {
     id: 6,
     imageUrl:
       "https://ds.rokomari.store/rokomari110/category/16469bf2d8e64_image.png",
-    title: "Card 6",
+    title: "ইসলামিক বই",
   },
 ];
 
