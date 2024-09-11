@@ -1,9 +1,11 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
-import { cards, cards4, main } from '../../faker/fake';
+import { btns, cards, cards4, main } from '../../faker/fake';
 import { MdStarRate } from 'react-icons/md';
 import { RiArrowRightWideLine } from 'react-icons/ri';
+import { SlArrowRight } from 'react-icons/sl';
+import "./extra.css"
 
 const Home = () => {
  
@@ -134,6 +136,31 @@ return (
     </div>
   </div>
 </div>
+
+{/* btn */}
+<div className="btns w-full mt-4 md:mt-4">
+  <div className="_container">
+  <div className="midium grid grid-cols-2 gap-4 md:grid-cols-5 md:gap-5 p-5 md:bg-gray-200 md:w-full md:h-auto md:items-center">
+  {btns.map((item, index) => (
+   <button
+   key={index}
+   className="w-full  bg-white text-black md:z-[1] py-2 px-4 flex items-center justify-center gap-2 border border-black md:border-blue-400 relative mb-3 md:mb-0 overflow-hidden text-center whitespace-nowrap before:content-[''] before:absolute before:left-0 before:top-0 before:w-[0%] before:h-[100%] before:bg-blue-500 md:hover:before:w-[100%] md:before:transition-all md:before:duration-700 md:ho md:py-4 md:before:z-[-1] md:hover:text-white md:rounded-md"
+ >
+   <span className="truncate">{item.btn_text}</span>
+   <span className="block md:hidden"><SlArrowRight /></span>
+ </button>
+ 
+ 
+  ))}
+</div>
+
+
+
+
+
+  </div>
+</div>
+
   </>
 
 

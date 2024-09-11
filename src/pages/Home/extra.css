@@ -1,0 +1,23 @@
+
+/* .mainses {
+    z-index: 1;
+}
+.mainses::before{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: red;
+    left: 0;
+    z-index: -1;
+    transition: .5s;
+}
+
+.mainses:hover:before{
+    content: "";
+    content: "";
+    position: absolute;
+    width: 100%;
+   
+    
+} */
