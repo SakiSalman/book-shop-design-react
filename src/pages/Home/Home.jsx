@@ -13,9 +13,10 @@ const Home = () => {
 return (
   <>
   <div className="_container  mt-4 flex-col items-center">
-  <div className="w-full px-4 pt-2 box-shadow">
-    <div className="text-center mb-4 lg:text-start ">
-      <h1 className="text-xl md:text-2xl lg:text-2xl lg:font-thin">আপনাদের জন্য </h1>
+  <div className="w-full bg-[#fdfcf5] px-4 pt-2 box-shadow">
+    <div className="text-center flex justify-between mb-4 lg:text-start md:flex md:justify-between">
+      <h1 className="text-xl md:text-2xl lg:text-2xl lg:font-thin ">আপনাদের জন্য </h1>
+      <button className='border border-blue-400 transition duration-500 hover:bg-blue-400 hover:text-white rounded-sm md:py-1 md:px-1 md:flex md:justify-center md:items-center'>View All</button>
     </div>
     <div className="grid grid-cols-2 gap-2 md:grid-cols-3 lg:gap-4 lg:grid-cols-6 md:items-stretch   items-center">
       {main.map((item, index) => (
@@ -87,9 +88,10 @@ return (
 </div>
 {/* card-3 */}
 <div className="_container  mt-4 flex-col items-center">
-  <div className="w-full px-4 pt-2 box-shadow">
-    <div className="text-center mb-4 lg:text-start ">
+  <div className="w-full bg-[#fdfcf5] px-4 pt-2 box-shadow">
+    <div className="text-center mb-4 lg:text-start flex justify-between">
       <h1 className="text-xl md:text-2xl lg:text-2xl lg:font-thin">সেরা ডিস্কাউন্ট এ বেস্টসেলার বই</h1>
+      <button className='border border-blue-400 transition duration-500 rounded-sm  hover:bg-blue-400 md:py-1 md:px-1 md:flex md:justify-center md:items-center'>View All</button>
     </div>
     <div className="grid grid-cols-2 gap-2 md:grid-cols-3 lg:gap-4 lg:grid-cols-6 md:items-stretch   items-center">
       {main.map((item, index) => (
@@ -121,8 +123,8 @@ return (
 </div>
 {/* card-4 */}
 
-<div className="_container bg-white h- mt-3 flex flex-col items-center">
-  <div className="w-full px-4 pt-2 box-shadow">
+<div className="_container  h- mt-3 flex flex-col items-center">
+  <div className="w-full bg-white px-4 pt-2 box-shadow">
     <div className="text-center mb-4 lg:text-start ">
       <h1 className="text-xl md:text-2xl lg:text-2xl lg:font-thin">বেস্ট সেলার বিষয় </h1>
     </div>
@@ -144,7 +146,7 @@ return (
   {btns.map((item, index) => (
    <button
    key={index}
-   className="w-full  bg-white text-black md:z-[1] py-2 px-4 flex items-center justify-center gap-2 border border-black md:border-blue-400 relative mb-3 md:mb-0 overflow-hidden text-center whitespace-nowrap before:content-[''] before:absolute before:left-0 before:top-0 before:w-[0%] before:h-[100%] before:bg-blue-500 md:hover:before:w-[100%] md:before:transition-all md:before:duration-700 md:ho md:py-4 md:before:z-[-1] md:hover:text-white md:"
+   className="w-full  bg-white text-black md:z-[1] py-2 px-4 md:rounded-md flex items-center justify-center gap-2 border border-black md:border-blue-400 relative mb-3 md:mb-0 overflow-hidden text-center whitespace-nowrap before:content-[''] before:absolute before:left-0 before:top-0 before:w-[0%] before:h-[100%] before:bg-blue-500 md:hover:before:w-[100%] md:before:transition-all md:before:duration-700 md:ho md:py-4 md:before:z-[-1] md:hover:text-white md:"
  >
    <span className="truncate">{item.btn_text}</span>
    <span className="block md:hidden"><SlArrowRight /></span>
@@ -160,6 +162,30 @@ return (
 
   </div>
 </div>
+<div className="container mt-4 mx-auto overflow-x-auto">
+  <div className="flex justify-center gap-4 p-5 bg-slate-200 md:grid md:grid-cols-3 md:w-full md:gap-4">
+    
+    <div className="card w-[90%] max-w-[350px] md:max-w-[433px] bg-white p-2">
+      <img className="w-full h-auto" src="https://www.rokomari.com/static/200/images/hsc/service-banner/prize.webp" alt="Prize" />
+    </div>
+
+    <div className="card w-[90%] max-w-[350px] md:max-w-[433px] bg-white p-2">
+      <img className="w-full h-auto" src="https://www.rokomari.com/static/200/images/hsc/service-banner/prize.webp" alt="Prize" />
+    </div>
+
+    <div className="card w-[90%] max-w-[350px] md:max-w-[433px] bg-white p-2">
+      <img className="w-full h-auto" src="https://www.rokomari.com/static/200/images/hsc/service-banner/prize.webp" alt="Prize" />
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
 
   </>
 
