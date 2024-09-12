@@ -162,18 +162,18 @@ return (
 
   </div>
 </div>
-<div className="container mt-4 mx-auto overflow-x-auto">
-  <div className="flex justify-center gap-4 p-5 bg-slate-200 md:grid md:grid-cols-3 md:w-full md:gap-4">
+<div className="_container mt-4 mx-auto  flex justify-center bg-slate-200">
+  <div className="grid grid-cols-3   gap-4 p-5 md:grid md:grid-cols-3 md:w-fullmd:bg-slate-200 md:gap-4">
     
-    <div className="card w-[90%] max-w-[350px] md:max-w-[433px] bg-white p-2">
+    <div className="card w-full max-w-[350px] md:max-w-[433px] bg-white p-2">
       <img className="w-full h-auto" src="https://www.rokomari.com/static/200/images/hsc/service-banner/prize.webp" alt="Prize" />
     </div>
 
-    <div className="card w-[90%] max-w-[350px] md:max-w-[433px] bg-white p-2">
+    <div className="card w-full max-w-[350px] md:max-w-[433px] bg-white p-2">
       <img className="w-full h-auto" src="https://www.rokomari.com/static/200/images/hsc/service-banner/prize.webp" alt="Prize" />
     </div>
 
-    <div className="card w-[90%] max-w-[350px] md:max-w-[433px] bg-white p-2">
+    <div className="card w-full max-w-[350px] md:max-w-[433px] bg-white p-2">
       <img className="w-full h-auto" src="https://www.rokomari.com/static/200/images/hsc/service-banner/prize.webp" alt="Prize" />
     </div>
 
