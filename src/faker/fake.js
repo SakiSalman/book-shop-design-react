@@ -234,3 +234,152 @@ export const btns = [
     btn_text: "ছরা,কবিতা ও আব্রিত্তি",
   },
 ];
+
+const author1 = [
+  {
+    authorPhoto: "https://ds.rokomari.store/rokomari110/people/author.png",
+    author_sidcription: "মুহাম্মাদ ওয়ালিউল্লাহ চৌধুরি",
+    sapna_text: "8220Followers",
+  },
+
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/2222ed505a94_1.jpg",
+    author_sidcription: "হুমাউন আহমেদ",
+    sapna_text: "9220 followers",
+  },
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/feecb90af_78860.jpg",
+    author_sidcription: "শায়খ আহমাদুল্লাহ",
+    sapna_text: "6,827 followers",
+  },
+
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/603675568_68583.jpg",
+    author_sidcription: "ফরিদ আহমেদ",
+    sapna_text: "318 followers",
+  },
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/24bb058cc_10107.png",
+    author_sidcription: "মুহাম্মাদ আবুবকর সিদ্দিক",
+    sapna_text: "790 followers",
+  },
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/cebaa1b76_88191.jpg",
+    author_sidcription: "মুহাম্মাদ ওয়ালিউল্লাহ চৌধুরি",
+  },
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/cebaa1b76_88191.jpg",
+    author_sidcription: "মুহাম্মাদ ওয়ালিউল্লাহ চৌধুরি",
+  },
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/cebaa1b76_88191.jpg",
+    author_sidcription: "মুহাম্মাদ ওয়ালিউল্লাহ চৌধুরি",
+  },
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/cebaa1b76_88191.jpg",
+    author_sidcription: "মুহাম্মাদ ওয়ালিউল্লাহ চৌধুরি",
+  },
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/cebaa1b76_88191.jpg",
+    author_sidcription: "মুহাম্মাদ ওয়ালিউল্লাহ চৌধুরি",
+  },
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/cebaa1b76_88191.jpg",
+    author_sidcription: "মুহাম্মাদ ওয়ালিউল্লাহ চৌধুরি",
+  },
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/cebaa1b76_88191.jpg",
+    author_sidcription: "মুহাম্মাদ ওয়ালিউল্লাহ চৌধুরি",
+  },
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/cebaa1b76_88191.jpg",
+    author_sidcription: "মুহাম্মাদ ওয়ালিউল্লাহ চৌধুরি",
+  },
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/cebaa1b76_88191.jpg",
+    author_sidcription: "মুহাম্মাদ ওয়ালিউল্লাহ চৌধুরি",
+  },
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/cebaa1b76_88191.jpg",
+    author_sidcription: "মুহাম্মাদ ওয়ালিউল্লাহ চৌধুরি",
+  },
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/cebaa1b76_88191.jpg",
+    author_sidcription: "মুহাম্মাদ ওয়ালিউল্লাহ চৌধুরি",
+  },
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/cebaa1b76_88191.jpg",
+    author_sidcription: "মুহাম্মাদ ওয়ালিউল্লাহ চৌধুরি",
+  },
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/cebaa1b76_88191.jpg",
+    author_sidcription: "মুহাম্মাদ ওয়ালিউল্লাহ চৌধুরি",
+  },
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/cebaa1b76_88191.jpg",
+    author_sidcription: "মুহাম্মাদ ওয়ালিউল্লাহ চৌধুরি",
+  },
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/cebaa1b76_88191.jpg",
+    author_sidcription: "মুহাম্মাদ ওয়ালিউল্লাহ চৌধুরি",
+  },
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/cebaa1b76_88191.jpg",
+    author_sidcription: "মুহাম্মাদ ওয়ালিউল্লাহ চৌধুরি",
+  },
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/cebaa1b76_88191.jpg",
+    author_sidcription: "মুহাম্মাদ ওয়ালিউল্লাহ চৌধুরি",
+  },
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/cebaa1b76_88191.jpg",
+    author_sidcription: "মুহাম্মাদ ওয়ালিউল্লাহ চৌধুরি",
+  },
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/cebaa1b76_88191.jpg",
+    author_sidcription: "মুহাম্মাদ ওয়ালিউল্লাহ চৌধুরি",
+  },
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/cebaa1b76_88191.jpg",
+    author_sidcription: "মুহাম্মাদ ওয়ালিউল্লাহ চৌধুরি",
+  },
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/cebaa1b76_88191.jpg",
+    author_sidcription: "মুহাম্মাদ ওয়ালিউল্লাহ চৌধুরি",
+  },
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/cebaa1b76_88191.jpg",
+    author_sidcription: "মুহাম্মাদ ওয়ালিউল্লাহ চৌধুরি",
+  },
+  {
+    authorPhoto:
+      "https://ds.rokomari.store/rokomari110/people/cebaa1b76_88191.jpg",
+    author_sidcription: "মুহাম্মাদ ওয়ালিউল্লাহ চৌধুরি",
+  },
+];

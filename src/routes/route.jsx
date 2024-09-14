@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import Layout from "../components/layouts/Layout";
-import Home from "../pages/Home/Home";
+import Lekhokh from "../pages/Lekhokh/lekhokh.jsx";
 
 
 export const router = createBrowserRouter([
@@ -10,7 +10,7 @@ export const router = createBrowserRouter([
     children:[
       {
           path:"/",
-          element:<Home/>
+          element:<Lekhokh/>
       }
   ]
   },
