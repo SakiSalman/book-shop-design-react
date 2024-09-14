@@ -73,7 +73,8 @@ const Lekhokh = () => {
                   <img className="w-24 h-24 rounded-full" src="https://ds.rokomari.store/rokomari110/people/feecb90af_78860.jpg" alt="" />
                   <p className="mt-3">শায়েখ আহ্মাদুল্লাহ</p>
                   <span className="font-thin text-[#878282]">2000 followers</span>
-                </div>
+                  <button className="border-2 border-blue-500 px-8 py-1 flex justify-center items-center rounded-2xl font-bold hover:bg-blue-900 hover:text-white">Follow</button>                
+                  </div>
               );
             })}
           </div>
