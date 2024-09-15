@@ -7,7 +7,7 @@ export default {
         primary: "#b8070a",
         secondary: "#050402",
         text: "#050505",
-        box_shadows: "0 4px 20px #ccc",
+        bgGray: "#f1f2f4",
       },
     },
   },

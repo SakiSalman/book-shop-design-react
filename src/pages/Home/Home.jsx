@@ -12,6 +12,10 @@ const Home = () => {
 
 return (
   <>
+  <div className="bg-bgGray">
+    <div className="tex">
+      
+    </div>
   <div className="_container  mt-4 flex-col items-center">
   <div className="w-full bg-[#fdfcf5] px-4 pt-2 box-shadow">
     <div className="text-center flex justify-between mb-4 lg:text-start md:flex md:justify-between">
@@ -179,6 +183,7 @@ return (
 
   </div>
 </div>
+  </div>
 
 
 

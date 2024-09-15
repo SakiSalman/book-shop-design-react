@@ -4,23 +4,39 @@ import "swiper/css/navigation";
 import "swiper/css";
 import 'swiper/css/scrollbar';
 import { Navigation, Pagination } from 'swiper/modules';
+import { RiHomeLine } from "react-icons/ri";
+import { FaChevronRight } from "react-icons/fa";
+import { FiChevronRight } from "react-icons/fi";
 
 const Lekhokh = () => {
   return (
     <>
-      <div className="cardsection1 mt-5 ">
+      <div className="bg-bgGray w-full py-5">
+    <div className="_container">
+    <div className="media flex items-center gap-2 text-[#737373]">
+    <RiHomeLine/>
+    <FiChevronRight />    
+    <p>বই</p>
+    <FiChevronRight />    
+    <p>লেখখ</p>
+    </div>
+    </div>
+
+      <div className="cardsection1 mt-3 ">
         <div className="_container ">
-          <div className="main bg-white box-shadow bottom-4">
+          <div className="back-icons">
+          </div>
+          <div className="main bg-white  bottom-4">
             <Swiper
               spaceBetween={20}
               slidesPerView={6} // Default slides to show on large screens
               navigation
               pagination={{ clickable: true }}
-              modules={[Navigation, Pagination]}
+              modules={[Navigation]}
               breakpoints={{
                 // when window width is >= 320px (Mobile)
                 320: {
-                  slidesPerView: 1,
+                  slidesPerView: 2,
                   spaceBetween: 10,
                 },
                 // when window width is >= 640px (Tablet)
@@ -66,19 +82,21 @@ const Lekhokh = () => {
 
       <div className="cardsection2 mt-4">
         <div className="_container">
-          <div className="mains grid grid-cols-2 md:grid-cols-6 justify-center items-center bg-white shadow-md p-5 w-full box-shadow">
+          <div className="mains grid grid-cols-2 md:grid-cols-6 justify-center items-center bg-white  p-5 w-full ">
             {Array(18).fill("").map(() => {
               return (
                 <div className="cards flex flex-col justify-center items-center mt-4 w-full">
                   <img className="w-24 h-24 rounded-full" src="https://ds.rokomari.store/rokomari110/people/feecb90af_78860.jpg" alt="" />
                   <p className="mt-3">শায়েখ আহ্মাদুল্লাহ</p>
                   <span className="font-thin text-[#878282]">2000 followers</span>
-                  <button className="border-2 border-blue-500 px-8 py-1 flex justify-center items-center rounded-2xl font-bold hover:bg-blue-900 hover:text-white">Follow</button>                
+                  <button className="border-2 border-blue-500 px-8 py-1 flex justify-center items-center rounded-2xl font-medium transition-all duration-700 hover:bg-blue-900 hover:text-white">Follow</button>                
                   </div>
+              
               );
             })}
           </div>
         </div>
+      </div>
       </div>
     </>
   );
