@@ -229,6 +229,8 @@ const AuthorsAbout = () => {
               src="https://proships.ru/stat/img/user-512.png"
               alt="Author"
             />
+            <span>0 Followers</span>
+            <button className="bg-blue-700">Follow</button>
           </div>
           <div className="author_name ml-4">
             <h1 className="font-bold text-lg mb-2">Author Name</h1>
@@ -247,7 +249,7 @@ const AuthorsAbout = () => {
                   View All
                 </button>
               </div>
-              <div className="grid grid-cols-2 gap-2 md:grid-cols-3 lg:gap-4 lg:grid-cols-6 md:items-stretch items-center">
+              <div className="grid grid-cols-2 gap-2 lg:grid-cols-5 2xl:grid-cols-6">
                 {main.map((item, index) => (
                   <div
                     key={index}
