@@ -222,18 +222,18 @@ const AuthorsAbout = () => {
 
         {/* Main Content */}
         <div className="main-content w-full h-auto p-4 md:pl-10 rounded-md mb-4">
-         <div className="midium bg-bgInport p-3">
-         <div className="author_img flex-shrink-0">
+         <div className="midium flex bg-bgInport rounded-md p-3">
+         <div className="author_img flex-shrink">
             <img
               className="w-[80px] h-[80px] object-cover rounded-full"
               src="https://proships.ru/stat/img/user-512.png"
               alt="Author"
             />
             <span>0 Followers</span>
-            <button className="bg-blue-700">Follow</button>
+            <button className="btn-single-follow">Follow</button>
           </div>
           <div className="author_name ml-4">
-            <h1 className="font-bold text-lg mb-2">Author Name</h1>
+            <h1 className="font-bold text-lg mb-2 font-thin lato">লেখকের নাম</h1>
             <ReadMore text={longText} />
           </div>
          </div>
@@ -250,38 +250,40 @@ const AuthorsAbout = () => {
                 </button>
               </div>
               <div className="grid grid-cols-2 gap-2 lg:grid-cols-5 2xl:grid-cols-6">
-                {main.map((item, index) => (
-                  <div
-                    key={index}
-                    className="card relative group border-0 mb-4 w-full m-auto h-[348px] hover:border-2 hover:border-gray-400 text-center flex flex-col items-center justify-center"
-                  >
-                    <img className="object-cover" src={item.imageUrl} alt={`Card ${index + 1}`} />
-                    <div className="text mt-2">
-                      <h1 className="font-thin text-sm md:text-base">{item.title}</h1>
-                    </div>
+  {main.map((item, index) => (
+    <div
+      key={index}
+      className="card relative group border-0 mb-4 w-full m-auto h-[348px] hover:border-2 hover:border-gray-400 text-center flex flex-col items-center justify-center transition-all"
+    >
+      <img className="object-cover" src={item.imageUrl} alt={`Card ${index + 1}`} />
+      <div className="text mt-2">
+        <h1 className="font-thin text-sm md:text-base">{item.title}</h1>
+      </div>
 
-                    <div className="button w-full h-full absolute text-center invisible flex flex-col group-hover:visible items-center justify-center">
-                      <button className="translate-y-[-30px] font-bold text-white rounded-md bg-[#f90] m-auto py-3 px-4 flex items-center justify-center">
-                        Add To Card
-                      </button>
+      <div className="button w-full h-full absolute text-center flex flex-col items-center justify-center transition-all duration-300 opacity-0 group-hover:opacity-100">
+        <button className="group-hover:-translate-y-9 transition-all duration-500 font-bold text-white rounded-md bg-[#f90] m-auto py-3 px-4 flex items-center justify-center">
+          Add To Cart
+        </button>
+        <button className="bg-slate-300 w-full p-2 font-bold text-blue-400">
+          View More
+        </button>
+      </div>
 
-                      <button className="bg-slate-300 w-full p-2 font-bold text-blue-400">
-                        View More
-                      </button>
-                    </div>
-                    <div className="text text-center">
-                      <p className="w-[70%] m-auto">A compleat Biography of Abraham</p>
-                      <span className="opacity-[0.5]">বি.জেইন পাব্লিশারস</span>
-                      <div className="rate flex justify-center text-[#f90]">
-                        <MdStarRate />
-                        <MdStarRate />
-                        <MdStarRate />
-                        <MdStarRate />
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
+      <div className="text text-center mt-2">
+        <p className="w-[70%] m-auto">A complete Biography of Abraham</p>
+        <span className="opacity-[0.5]">বি.জেইন পাব্লিশারস</span>
+        <div className="rate flex justify-center text-[#f90] mt-1">
+          <MdStarRate />
+          <MdStarRate />
+          <MdStarRate />
+          <MdStarRate />
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
+
+
             </div>
           </div>
         </div>

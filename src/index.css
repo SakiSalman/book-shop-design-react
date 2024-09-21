@@ -6,6 +6,7 @@
 @tailwind utilities;
 
 
+
 @layer base {
     ._container {
         @apply max-w-[1920px] mx-auto px-[3%];
@@ -16,6 +17,12 @@
     .btn-follow {
         @apply border-2 border-blue-500 px-8 py-1 flex justify-center items-center rounded-2xl font-medium transition-all duration-700 hover:bg-blue-900 hover:text-white
     }
+
+    .btn-single-follow {
+        @apply bg-blue-700 px-3 text-white font-bold lato
+    }
+
+    
 }
 body{
     font-family: "Tiro Bangla", serif;
@@ -36,7 +43,6 @@ body{
     }
 }
 
-.mainses
 
 .button{
     background: rgba(222, 222, 222, .5);
