@@ -73,41 +73,47 @@ export const menuData = [
     {
       id: 1,
       name: "বই",
-      path: "",
+      path: "/",
       content: null
     },
     {
-      id: 1,
+      id: 2,
       name: "বিষয়",
       path: "",
       content: null
     },
     {
-      id: 1,
+      id: 3,
+      name: "লেখক",
+      path: "/authors",
+      content: null
+    },
+    {
+      id: 4,
       name: "বইমেলা",
       path: "/book-fair",
       content: ""
     },
     {
-      id: 1,
+      id: 5,
       name: "উপন্যাস",
       path: "",
       content: ""
     },
     {
-      id: 1,
+      id: 6,
       name: "কবিতা",
       path: "",
       content: ""
     },
     {
-      id: 1,
+      id: 7,
       name: "গল্প",
       path: "",
       content: ""
     },
     {
-      id: 1,
+      id: 8,
       name: "অনুবাদ",
       path: "",
       content: ""

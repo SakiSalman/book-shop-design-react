@@ -8,6 +8,8 @@ export default {
         secondary: "#050402",
         text: "#050505",
         bgGray: "#f1f2f4",
+        lightBorder: "#e8e9eb",
+        bgInport: "#fff7ea",
       },
     },
   },

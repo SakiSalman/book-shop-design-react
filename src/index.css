@@ -13,6 +13,9 @@
     .btn-primary {
         @apply px-4 md:px-8 py-2 rounded-full bg-primary border border-primary text-white hover:bg-white hover:text-primary  transition-all duration-700
     }
+    .btn-follow {
+        @apply border-2 border-blue-500 px-8 py-1 flex justify-center items-center rounded-2xl font-medium transition-all duration-700 hover:bg-blue-900 hover:text-white
+    }
 }
 body{
     font-family: "Tiro Bangla", serif;

@@ -35,6 +35,78 @@ export const main = [
       "https://ds.rokomari.store/rokomari110/ProductNew20…uvongkorer_Faki-Mohaimin_Patwari-4a19c-256250.jpg",
     title: "ইসলামিক বই",
   },
+  {
+    id: 7,
+    imageUrl:
+      "https://ds.rokomari.store/rokomari110/ProductNew20…uvongkorer_Faki-Mohaimin_Patwari-4a19c-256250.jpg",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 8,
+    imageUrl:
+      "https://ds.rokomari.store/rokomari110/ProductNew20…uvongkorer_Faki-Mohaimin_Patwari-4a19c-256250.jpg",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 9,
+    imageUrl:
+      "https://ds.rokomari.store/rokomari110/ProductNew20…uvongkorer_Faki-Mohaimin_Patwari-4a19c-256250.jpg",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 10,
+    imageUrl:
+      "https://ds.rokomari.store/rokomari110/ProductNew20…uvongkorer_Faki-Mohaimin_Patwari-4a19c-256250.jpg",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 11,
+    imageUrl:
+      "https://ds.rokomari.store/rokomari110/ProductNew20…uvongkorer_Faki-Mohaimin_Patwari-4a19c-256250.jpg",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 12,
+    imageUrl:
+      "https://ds.rokomari.store/rokomari110/ProductNew20…uvongkorer_Faki-Mohaimin_Patwari-4a19c-256250.jpg",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 13,
+    imageUrl:
+      "https://ds.rokomari.store/rokomari110/ProductNew20…uvongkorer_Faki-Mohaimin_Patwari-4a19c-256250.jpg",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 14,
+    imageUrl:
+      "https://ds.rokomari.store/rokomari110/ProductNew20…uvongkorer_Faki-Mohaimin_Patwari-4a19c-256250.jpg",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 15,
+    imageUrl:
+      "https://ds.rokomari.store/rokomari110/ProductNew20…uvongkorer_Faki-Mohaimin_Patwari-4a19c-256250.jpg",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 16,
+    imageUrl:
+      "https://ds.rokomari.store/rokomari110/ProductNew20…uvongkorer_Faki-Mohaimin_Patwari-4a19c-256250.jpg",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 17,
+    imageUrl:
+      "https://ds.rokomari.store/rokomari110/ProductNew20…uvongkorer_Faki-Mohaimin_Patwari-4a19c-256250.jpg",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 18,
+    imageUrl:
+      "https://ds.rokomari.store/rokomari110/ProductNew20…uvongkorer_Faki-Mohaimin_Patwari-4a19c-256250.jpg",
+    title: "ইসলামিক বই",
+  },
 ];
 export const cards = [
   {

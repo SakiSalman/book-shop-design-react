@@ -7,8 +7,9 @@ import { Navigation, Pagination } from 'swiper/modules';
 import { RiHomeLine } from "react-icons/ri";
 import { FaChevronRight } from "react-icons/fa";
 import { FiChevronRight } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
-const Lekhokh = () => {
+const Writters = () => {
   return (
     <>
       <div className="bg-bgGray w-full py-5">
@@ -68,7 +69,7 @@ const Lekhokh = () => {
                         alt=""
                         className="rounded-full w-24 h-24 mb-2 ring-8 ring-[#d3c7c7]"
                       />
-                      <p className="text-lg font-semibold">শায়খ আহমাদুল্লাহ</p>
+                      <p className="text-lg font-semibold"><Link to={'/authors/1'}>শায়খ আহমাদুল্লাহ</Link></p>
                       <span className="text-sm text-gray-500">
                         6887 followers
                       </span>
@@ -83,13 +84,13 @@ const Lekhokh = () => {
       <div className="cardsection2 mt-4">
         <div className="_container">
           <div className="mains grid grid-cols-2 md:grid-cols-6 justify-center items-center bg-white  p-5 w-full ">
-            {Array(18).fill("").map(() => {
+            {Array(18).fill("").map((item, index) => {
               return (
-                <div className="cards flex flex-col justify-center items-center mt-4 w-full">
+                <div key={index} className="cards flex flex-col justify-center items-center mt-4 w-full">
                   <img className="w-24 h-24 rounded-full" src="https://ds.rokomari.store/rokomari110/people/feecb90af_78860.jpg" alt="" />
                   <p className="mt-3">শায়েখ আহ্মাদুল্লাহ</p>
                   <span className="font-thin text-[#878282]">2000 followers</span>
-                  <button className="border-2 border-blue-500 px-8 py-1 flex justify-center items-center rounded-2xl font-medium transition-all duration-700 hover:bg-blue-900 hover:text-white">Follow</button>                
+                  <button className="btn-follow">Follow</button>                
                   </div>
               
               );
@@ -102,5 +103,5 @@ const Lekhokh = () => {
   );
 };
 
-export default Lekhokh;
+export default Writters;
 

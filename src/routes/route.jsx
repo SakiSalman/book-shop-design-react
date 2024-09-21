@@ -1,19 +1,29 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import Layout from "../components/layouts/Layout";
-import Lekhokh from "../pages/Author/lekhokh.jsx";
 import Home from "../pages/Home/Home.jsx";
-import AuthorrsBooks from "../pages/Authors book/authenitic.jsx";
+import Writters from "../pages/Author/Writters.jsx";
+import AuthorsAbout from "../pages/Author/about/AuthorsAbout.jsx";
+import Error from "../components/Errors/Error.jsx";
 
 
 
 export const router = createBrowserRouter([
   {
     element: <Layout/>,
+    errorElement : <Error/>,
     children:[
       {
           path:"/",
-          element:<AuthorrsBooks/>
+          element:<AuthorsAbout/>,
+      },
+      {
+        path:"/authors",
+        element:<Writters/>
+      },
+      {
+        path:"/authors/:id",
+        element:<AuthorsAbout/>
       }
   ]
   },

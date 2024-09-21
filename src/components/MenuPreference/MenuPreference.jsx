@@ -38,11 +38,11 @@ const MenuPreference = ({ data }) => {
                     data?.length > 0 && data?.map((item, index) => {
 
                         if (item?.content) {
-                            return <li onClick={() => handleSubmenuContent(item?.content)} className='px-3 hover:text-primary duration-700 transition-all cursor-pointer text-base flex items-center gap-1'><span>{item?.name}</span>{
+                            return <li key={item.id} onClick={() => handleSubmenuContent(item?.content)} className='px-3 hover:text-primary duration-700 transition-all cursor-pointer text-base flex items-center gap-1'><span>{item?.name}</span>{
                                 item?.content && <span><MdKeyboardArrowDown /></span>
                             }        </li>
                         } else {
-                            return <Link to={`${item?.path}`} onClick={() => handleSubmenuContent(item?.content)} className='px-3 hover:text-primary duration-700 transition-all cursor-pointer text-base flex items-center gap-1'><span>{item?.name}</span></Link>
+                            return <Link key={item.id} to={`${item?.path}`} onClick={() => handleSubmenuContent(item?.content)} className='px-3 hover:text-primary duration-700 transition-all cursor-pointer text-base flex items-center gap-1'><span>{item?.name}</span></Link>
                         }
                     }
                     )
