@@ -229,7 +229,7 @@ const AuthorsAbout = () => {
               src="https://proships.ru/stat/img/user-512.png"
               alt="Author"
             />
-            <span>0 Followers</span>
+            <span>0Followers</span>
             <button className="btn-single-follow rounded-sm">Follow</button>
           </div>
           <div className="author_name ml-4">
