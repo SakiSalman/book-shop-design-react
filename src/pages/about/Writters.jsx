@@ -62,14 +62,18 @@ const Writters = () => {
               {Array(10)
                 .fill("")
                 .map((_, index) => (
+                  
                   <SwiperSlide key={index}>
+                    {
+                      console.log(index)
+                    }
                     <div className="card bg-white p-4 rounded-lg flex flex-col items-center">
                       <img 
                         src="https://ds.rokomari.store/rokomari110/people/feecb90af_78860.jpg"
                         alt=""
                         className="rounded-full w-24 h-24 mb-2 ring-8 ring-[#d3c7c7]"
                       />
-                      <p className="text-lg font-semibold"><Link to={'/authors/1'}>শায়খ আহমাদুল্লাহ</Link></p>
+                      <p className="text-lg font-semibold"><Link to={`/authors/`+index}>শায়খ আহমাদুল্লাহ</Link></p>
                       <span className="text-sm text-gray-500">
                         6887 followers
                       </span>
@@ -88,7 +92,7 @@ const Writters = () => {
               return (
                 <div key={index} className="cards flex flex-col justify-center items-center mt-4 w-full">
                   <img className="w-24 h-24 rounded-full" src="https://ds.rokomari.store/rokomari110/people/feecb90af_78860.jpg" alt="" />
-                  <Link className="mt-3" to={'/authors/2'}>শায়েখ আহ্মাদুল্লাহ</Link>
+                  <Link className="mt-3" to={'/authors/'+index}>শায়েখ আহ্মাদুল্লাহ</Link>
                   <span className="font-thin text-[#878282]">2000 followers</span>
                   <button className="btn-follow">Follow</button>                
                   </div>
