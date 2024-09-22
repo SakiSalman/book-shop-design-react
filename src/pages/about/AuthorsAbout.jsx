@@ -230,7 +230,7 @@ const AuthorsAbout = () => {
               alt="Author"
             />
             <span>0 Followers</span>
-            <button className="btn-single-follow">Follow</button>
+            <button className="btn-single-follow rounded-sm">Follow</button>
           </div>
           <div className="author_name ml-4">
             <h1 className="font-bold text-lg mb-2 font-thin lato">লেখকের নাম</h1>
@@ -261,7 +261,7 @@ const AuthorsAbout = () => {
       </div>
 
       <div className="button w-full h-full absolute text-center flex flex-col items-center justify-center transition-all duration-300 opacity-0 group-hover:opacity-100">
-        <button className="group-hover:-translate-y-9 transition-all duration-500 font-bold text-white rounded-md bg-[#f90] m-auto py-3 px-4 flex items-center justify-center">
+        <button className="group-hover:-translate-y-9 transition-all lato duration-500 font-bold text-white rounded-md bg-[#f90] m-auto py-3 px-4 flex items-center justify-center">
           Add To Cart
         </button>
         <button className="bg-slate-300 w-full p-2 font-bold text-blue-400">

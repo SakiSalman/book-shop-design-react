@@ -88,7 +88,7 @@ const Writters = () => {
               return (
                 <div key={index} className="cards flex flex-col justify-center items-center mt-4 w-full">
                   <img className="w-24 h-24 rounded-full" src="https://ds.rokomari.store/rokomari110/people/feecb90af_78860.jpg" alt="" />
-                  <p className="mt-3">শায়েখ আহ্মাদুল্লাহ</p>
+                  <Link className="mt-3" to={'/authors/2'}>শায়েখ আহ্মাদুল্লাহ</Link>
                   <span className="font-thin text-[#878282]">2000 followers</span>
                   <button className="btn-follow">Follow</button>                
                   </div>

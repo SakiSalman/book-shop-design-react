@@ -1,36 +1,9 @@
-import React, { useState } from "react";
-import { IoSearch } from "react-icons/io5";
-import { MdOutlineStar, MdStarRate } from "react-icons/md";
-import { main } from "../../faker/fake";
+import React from 'react'
 
-const ReadMore = ({ text }) => {
-  const [isExpanded, setIsExpanded] = useState(false);
-
-  const toggleReadMore = () => {
-    setIsExpanded(!isExpanded);
-  };
-
-  return (
-    <p>
-      {isExpanded ? text : `${text.substring(0, 206)}...`}
-      <span
-        onClick={toggleReadMore}
-        style={{ color: 'blue', cursor: 'pointer', marginLeft: '5px' }}
-      >
-        {isExpanded ? 'Read Less' : 'Read More'}
-      </span>
-    </p>
-  );
-};
-
-const AuthorsAbout = () => {
-  const longText =
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit perspiciatis dignissimos magnam! Libero commodi, exercitationem aliquid quis sapiente repellat, voluptatem velit sunt corrupti, inventore impedit! Temporibus exercitationem nobis at ut, atque mollitia esse quis rerum quaerat libero maiores nesciunt maxime aspernatur dolor ipsam cumque, rem odit totam iure aperiam, quisquam architecto veritatis est! Tenetur labore atque in? Et, quidem commodi beatae totam ea sit consequuntur accusamus porro, voluptatum consectetur fugiat eius dolorum aperiam placeat optio! Iusto, rerum sequi veritatis quaerat ut assumenda asperiores natus corrupti commodi doloribus repellat illum impedit voluptate fugit ab quibusdam repudiandae est suscipit! Repellendus perferendis veritatis non obcaecati eveniet excepturi dolorum delectus reiciendis perspiciatis quo soluta veniam, necessitatibus accusantium facere nulla labore unde ad nihil libero quas doloribus velit reprehenderit provident quae. Animi incidunt nulla, inventore cumque qui molestias. Quisquam ipsam consectetur voluptatem sit eum iure, amet adipisci, dolorem eaque autem ad odit illum dolorum totam laboriosam. Consequuntur laudantium, aut ullam facilis eum fuga, itaque repudiandae alias in possimus magnam! Optio impedit dolorem nam doloremque alias! Sequi veniam soluta delectus aperiam error temporibus aliquid eveniet quis quo maxime et fugit impedit optio, rem consectetur quaerat eos maiores pariatur nisi obcaecati! Dolorem et adipisci repellat aliquam amet.';
-
-  return<>
-  <div className="parren md:block md:bg-bgGray h-auto py-2">
-      <div className="_container flex flex-col md:flex-row">
-        <div className="identify-cards hidden md:flex flex-col">
+const Bookfair = () => {
+  return <>
+  <div className="_container">
+  <div className="identify-cards hidden md:flex flex-col">
           {/* Sort Card */}
           <div className="card-1 w-[290px] h-[283px] bg-white">
             <div className="card-title flex justify-between p-3">
@@ -219,84 +192,8 @@ const AuthorsAbout = () => {
             </div>
           </div>
         </div>
+  </div>
+  </>
+}
 
-        {/* Main Content */}
-        <div className="main-content w-full h-auto p-4 md:pl-10 rounded-md mb-4">
-         <div className="midium flex bg-bgInport rounded-md p-3">
-         <div className="author_img flex-shrink">
-            <img
-              className="w-[80px] h-[80px] object-cover rounded-full"
-              src="https://proships.ru/stat/img/user-512.png"
-              alt="Author"
-            />
-            <span>0 Followers</span>
-            <button className="btn-single-follow">Follow</button>
-          </div>
-          <div className="author_name ml-4">
-            <h1 className="font-bold text-lg mb-2 font-thin lato">লেখকের নাম</h1>
-            <ReadMore text={longText} />
-          </div>
-         </div>
-
-          <div className="books mt-4 w-full">
-          <div className="_container mt-4 items-center">
-            <div className="w-full bg-[#fdfcf5] px-4 pt-2 box-shadow">
-              <div className="text-center mb-4 lg:text-start flex justify-between">
-                <h1 className="text-xl md:text-2xl lg:text-2xl lg:font-thin">
-                  সেরা ডিস্কাউন্ট এ বেস্টসেলার বই
-                </h1>
-                <button className="border border-blue-400 transition duration-500 rounded-sm hover:bg-blue-400 md:py-1 md:px-1 md:flex md:justify-center md:items-center">
-                  View All
-                </button>
-              </div>
-              <div className="grid grid-cols-2 gap-2 lg:grid-cols-5 2xl:grid-cols-6">
-  {main.map((item, index) => (
-    <div
-      key={index}
-      className="card relative group border-0 mb-4 w-full m-auto h-[348px] hover:border-2 hover:border-gray-400 text-center flex flex-col items-center justify-center transition-all"
-    >
-      <img className="object-cover" src={item.imageUrl} alt={`Card ${index + 1}`} />
-      <div className="text mt-2">
-        <h1 className="font-thin text-sm md:text-base">{item.title}</h1>
-      </div>
-
-      <div className="button w-full h-full absolute text-center flex flex-col items-center justify-center transition-all duration-300 opacity-0 group-hover:opacity-100">
-        <button className="group-hover:-translate-y-9 transition-all duration-500 font-bold text-white rounded-md bg-[#f90] m-auto py-3 px-4 flex items-center justify-center">
-          Add To Cart
-        </button>
-        <button className="bg-slate-300 w-full p-2 font-bold text-blue-400">
-          View More
-        </button>
-      </div>
-
-      <div className="text text-center mt-2">
-        <p className="w-[70%] m-auto">A complete Biography of Abraham</p>
-        <span className="opacity-[0.5]">বি.জেইন পাব্লিশারস</span>
-        <div className="rate flex justify-center text-[#f90] mt-1">
-          <MdStarRate />
-          <MdStarRate />
-          <MdStarRate />
-          <MdStarRate />
-        </div>
-      </div>
-    </div>
-  ))}
-</div>
-
-
-            </div>
-          </div>
-        </div>
-        </div>
-        
-        {/* Books Section */}
-       
-
-      </div>
-      
-      
-    </div>
-  </>;
-};
-
-export default AuthorsAbout;
+export default Bookfair
