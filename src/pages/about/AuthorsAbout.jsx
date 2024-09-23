@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { IoSearch } from "react-icons/io5";
 import { MdOutlineStar, MdStarRate } from "react-icons/md";
-import { main } from "../../faker/fake";
+import { main, main2 } from "../../faker/fake";
 
 const ReadMore = ({ text }) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -222,14 +222,14 @@ const AuthorsAbout = () => {
 
         {/* Main Content */}
         <div className="main-content w-full h-auto p-4 md:pl-10 rounded-md mb-4">
-         <div className="midium flex bg-bgInport rounded-md p-3">
+         <div className="midium flex bg-bgInport rounded-md py-3 px-2">
          <div className="author_img flex-shrink">
             <img
-              className="w-[80px] h-[80px] object-cover rounded-full"
+              className="w-[60px] h-[60px] object-cover rounded-full"
               src="https://proships.ru/stat/img/user-512.png"
               alt="Author"
             />
-            <span>0Followers</span>
+            <span><span className="font-bold">0</span>Followers</span>
             <button className="btn-single-follow rounded-sm">Follow</button>
           </div>
           <div className="author_name ml-4">
@@ -241,16 +241,16 @@ const AuthorsAbout = () => {
           <div className="books mt-4 w-full">
           <div className="_container mt-4 items-center">
             <div className="w-full bg-[#fdfcf5] px-4 pt-2 box-shadow">
-              <div className="text-center mb-4 lg:text-start flex justify-between">
+              <div className="text-center mb-4 lg:text-start">
+                <p>Books / Authors/Authors Name</p>
                 <h1 className="text-xl md:text-2xl lg:text-2xl lg:font-thin">
-                  সেরা ডিস্কাউন্ট এ বেস্টসেলার বই
+                  লেখকের নাম
                 </h1>
-                <button className="border border-blue-400 transition duration-500 rounded-sm hover:bg-blue-400 md:py-1 md:px-1 md:flex md:justify-center md:items-center">
-                  View All
-                </button>
+                <span>(Showing 18 items)</span>
+              
               </div>
               <div className="grid grid-cols-2 gap-2 lg:grid-cols-5 2xl:grid-cols-6">
-  {main.map((item, index) => (
+  {main2.map((item, index) => (
     <div
       key={index}
       className="card relative group border-0 mb-4 w-full m-auto h-[348px] hover:border-2 hover:border-gray-400 text-center flex flex-col items-center justify-center transition-all"

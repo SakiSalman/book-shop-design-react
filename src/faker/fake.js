@@ -108,6 +108,99 @@ export const main = [
     title: "ইসলামিক বই",
   },
 ];
+
+export const main2 = [
+  {
+    id: 1,
+    imageUrl: "http://via.placeholder.com/640x360",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 2,
+    imageUrl: "http://via.placeholder.com/640x360",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 3,
+    imageUrl: "http://via.placeholder.com/640x360",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 4,
+    imageUrl: "http://via.placeholder.com/640x360",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 5,
+    imageUrl: "http://via.placeholder.com/640x360",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 6,
+    imageUrl: "http://via.placeholder.com/640x360",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 7,
+    imageUrl: "http://via.placeholder.com/640x360",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 8,
+    imageUrl: "http://via.placeholder.com/640x360",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 9,
+    imageUrl: "http://via.placeholder.com/640x360",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 10,
+    imageUrl: "http://via.placeholder.com/640x360",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 11,
+    imageUrl: "http://via.placeholder.com/640x360",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 12,
+    imageUrl: "http://via.placeholder.com/640x360",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 13,
+    imageUrl: "http://via.placeholder.com/640x360",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 14,
+    imageUrl: "http://via.placeholder.com/640x360",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 15,
+    imageUrl: "http://via.placeholder.com/640x360",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 16,
+    imageUrl: "http://via.placeholder.com/640x360",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 17,
+    imageUrl: "http://via.placeholder.com/640x360",
+    title: "ইসলামিক বই",
+  },
+  {
+    id: 18,
+    imageUrl: "http://via.placeholder.com/640x360",
+    title: "ইসলামিক বই",
+  },
+];
 export const cards = [
   {
     id: 1,
