@@ -155,7 +155,7 @@ const AddTocard = () => {
               >
                 <img className="object-cover" src={item.img} alt={`Card ${index + 1}`} />
                 <div className="text mt-2">
-                  <h1 className="font-thin text-sm md:text-base">mulla</h1>
+                  <h1 className=" text-sm md:text-xl">{item.productName}</h1>
                 </div>
                 <div className="button w-full h-full absolute text-center flex flex-col items-center justify-center transition-all duration-300 opacity-0 group-hover:opacity-100">
                   <button className="group-hover:-translate-y-9 transition-all lato duration-500 font-bold text-white rounded-md bg-[#f90] m-auto py-3 px-4 flex items-center justify-center">

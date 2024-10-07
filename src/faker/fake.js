@@ -553,23 +553,28 @@ const addcartdata = [
   {
     id: 1,
     img: "https://ds.rokomari.store/rokomari110/ProductNew20190903/130X186/Poor_Economics-Abhijit_V_Banerjee-80f50-364309.jpg",
+    productName: "Books",
   },
   {
     id: 2,
     img: "https://ds.rokomari.store/rokomari110/ProductNew20190903/130X186/Poor_Economics-Abhijit_V_Banerjee-80f50-364309.jpg",
+    productName: "Books",
   },
   {
     id: 3,
     img: "https://ds.rokomari.store/rokomari110/ProductNew20190903/130X186/Poor_Economics-Abhijit_V_Banerjee-80f50-364309.jpg",
+    productName: "Books",
   },
   {
     id: 4,
     img: "https://ds.rokomari.store/rokomari110/ProductNew20190903/130X186/Poor_Economics-Abhijit_V_Banerjee-80f50-364309.jpg",
+    productName: "Books",
   },
 
   {
     id: 5,
     img: "https://ds.rokomari.store/rokomari110/ProductNew20190903/130X186/Poor_Economics-Abhijit_V_Banerjee-80f50-364309.jpg",
+    productName: "Books",
   },
 ];
 
