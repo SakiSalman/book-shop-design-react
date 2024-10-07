@@ -147,7 +147,7 @@ const AddTocard = () => {
         <div className=" flex flex-col   mt-8 h-auto lato">
           <div className="mid bg-white  h-auto rounded-md p-4 ">
             <h1 className="text-2xl font-medium">Popular Products You May Like</h1>
-            <div className="chin grid grid-cols-5">
+            <div className="chin grid grid-cols-2 md:grid-cols-5">
             {addcartdata.map((item, index) => (
               <div
                 key={index}
