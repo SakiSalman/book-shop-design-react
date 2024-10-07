@@ -548,3 +548,29 @@ const author1 = [
     author_sidcription: "মুহাম্মাদ ওয়ালিউল্লাহ চৌধুরি",
   },
 ];
+
+const addcartdata = [
+  {
+    id: 1,
+    img: "https://ds.rokomari.store/rokomari110/ProductNew20190903/130X186/Poor_Economics-Abhijit_V_Banerjee-80f50-364309.jpg",
+  },
+  {
+    id: 2,
+    img: "https://ds.rokomari.store/rokomari110/ProductNew20190903/130X186/Poor_Economics-Abhijit_V_Banerjee-80f50-364309.jpg",
+  },
+  {
+    id: 3,
+    img: "https://ds.rokomari.store/rokomari110/ProductNew20190903/130X186/Poor_Economics-Abhijit_V_Banerjee-80f50-364309.jpg",
+  },
+  {
+    id: 4,
+    img: "https://ds.rokomari.store/rokomari110/ProductNew20190903/130X186/Poor_Economics-Abhijit_V_Banerjee-80f50-364309.jpg",
+  },
+
+  {
+    id: 5,
+    img: "https://ds.rokomari.store/rokomari110/ProductNew20190903/130X186/Poor_Economics-Abhijit_V_Banerjee-80f50-364309.jpg",
+  },
+];
+
+export default addcartdata;

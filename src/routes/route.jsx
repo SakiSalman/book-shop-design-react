@@ -5,6 +5,7 @@ import Home from "../pages/Home/Home.jsx";
 import Writters from "../pages/about/Writters.jsx";
 import AuthorsAbout from "../pages/about/AuthorsAbout.jsx";
 import Error from "../components/Errors/Error.jsx";
+import AddTocard from "../components/cardPageAdd/AddTocard.jsx";
 
 
 
@@ -15,7 +16,7 @@ export const router = createBrowserRouter([
     children:[
       {
           path:"/",
-          element:<Writters/>,
+          element:<Home/>,
       },
       {
         path:"/authors",
@@ -24,6 +25,10 @@ export const router = createBrowserRouter([
       {
         path:"/authors/:id",
         element:<AuthorsAbout/>
+      },
+      {
+        path:"/addcard",
+        element:<AddTocard/>
       }
   ]
   },

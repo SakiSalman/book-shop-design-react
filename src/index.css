@@ -22,6 +22,14 @@
         @apply bg-blue-400 px-4 py-1 text-white font-bold lato
     }
 
+    .btn-single-other {
+        @apply    border-2 border-[#87298f]  text-[#87298f] font-semibold w-full py-3 hover:bg-[#87298f] hover:text-white 
+
+    }
+
+    .boxes {
+        @apply text-center  flex flex-col  items-center lato p-3 bg-[#ecf5ff] py-5 h-[222px] shadow-shadow
+    }
     
 }
 body{
@@ -46,4 +54,25 @@ body{
 
 .button{
     background: rgba(222, 222, 222, .5);
+}
+
+.arrow{
+    transition: all .8s linear;
+    animation: anim .8s linear infinite;
+}
+
+@keyframes anim {
+    0%{
+        transform: translateX(40px);
+    }
+    1%{
+        transform: translateX(30px);
+    }
+
+    50%{
+        transform: translateX(60px);
+    }
+
+   
+
 }

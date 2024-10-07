@@ -1,6 +1,5 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 import { btns, cards, cards4, main } from "../../faker/fake";
 import { MdStarRate } from "react-icons/md";
 import { RiArrowRightWideLine } from "react-icons/ri";
@@ -8,6 +7,7 @@ import { SlArrowRight } from "react-icons/sl";
 import "./extra.css";
 
 const Home = () => {
+  
   return (
     <>
       <div className="bg-bgGray">
@@ -256,6 +256,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+     
     </>
   );
 };

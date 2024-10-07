@@ -11,6 +11,10 @@ export default {
         lightBorder: "#e8e9eb",
         bgInport: "#fff7ea",
       },
+
+      boxShadow: {
+        shadow: "0 4px 5px #ccc",
+      },
     },
   },
   plugins: [],

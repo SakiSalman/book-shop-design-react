@@ -6,7 +6,7 @@ import { HiOutlineBars3CenterLeft } from "react-icons/hi2";
 import { Link } from "react-router-dom";
 
 
-const HeaderPn = () => {
+const HeaderPn = ({handleModal}) => {
     const [showDrawer, setShowDrawer] = useState(false);
     return (
         <>
@@ -31,13 +31,13 @@ const HeaderPn = () => {
                         </Link>
                     </div>
                     <div className="flex justify-end items-center gap-3 text-xl">
-                        <button className="flex justify-center items-center gap-2 text-primary relative">
+                        <button onClick={handleModal}  className="flex justify-center items-center gap-2 text-primary relative">
                             <span className="rounded-full absolute -top-1 -right-1 text-xs w-5 h-5 bg-primary text-white flex justify-center items-center">30</span>
                             <BsBag />
                         </button>
                         <span>|</span>
                         <button className="flex justify-center items-center gap-2 lato">
-                            <span>
+                            <span className="">
                                 <BiUser />
                             </span>
                         </button>

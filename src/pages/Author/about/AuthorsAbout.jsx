@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { IoSearch } from "react-icons/io5";
+import { IoSearch } from "react-icons/io5"; // Ensure this path is correct
 import { MdOutlineStar, MdStarRate } from "react-icons/md";
-import { main } from "../../faker/fake";
+import { main, main2 } from "../../faker/fake";
 
 const ReadMore = ({ text }) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -14,7 +14,8 @@ const ReadMore = ({ text }) => {
     <p>
       {isExpanded ? text : `${text.substring(0, 206)}...`}
       <span
-        onClick={toggleReadMore}
+        onClick={toggleReadMore}h
+
         style={{ color: 'blue', cursor: 'pointer', marginLeft: '5px' }}
       >
         {isExpanded ? 'Read Less' : 'Read More'}

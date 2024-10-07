@@ -5,7 +5,7 @@ import CheckOutsideClick from '../CheckOutsideClick/CheckOutsideClick';
 import MenuPreference from '../MenuPreference/MenuPreference';
 import { BsBag } from 'react-icons/bs';
 
-const HeaderPC = () => {
+const HeaderPC = ({handleModal}) => {
     const [showDrop, setDrop] = useState(false)
     return (
       <div className='shadow-sm sticky hidden lg:block z-[999999]'>
@@ -35,7 +35,7 @@ const HeaderPC = () => {
               <div className='col-span-3'>
                 <div className="flex justify-center gap-4">
                   <div className='relative'>
-                    <button onClick={() => setDrop(true)} className='flex justify-center items-center gap-2 lato'><span><BiUser /></span>Dashboard</button>
+                    <button  className='flex justify-center items-center gap-2 lato'><span><BiUser /></span>Dashboard</button>
                     <CheckOutsideClick onClickOutside={() => setDrop(false)}>
                       {
                         showDrop && <div className='absolute w-[195px] shadow-md rounded-md top-full left-1/2 right-1/2 -translate-x-1/2 p-3 bg-white z-10'>
@@ -50,7 +50,7 @@ const HeaderPC = () => {
                   </div>
                   <button className='flex justify-center items-center gap-2 lato'><span><BiUser /></span>Singn In</button>
                   <span>|</span>
-                  <button className='flex justify-center items-center gap-2 text-primary relative'><span className='w-2 h-2 rounded-full bg-primary absolute top-1 -right-1'></span><BsBag /></button>
+                  <button onClick={handleModal}  className='flex justify-center items-center gap-2 text-primary relative'><span className='w-2 h-2 rounded-full bg-primary absolute top-1 -right-1'></span><BsBag /></button>
                 </div>
               </div>
             </div>
